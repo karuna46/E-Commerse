@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#productDetails{
+    padding: 30px;
+    background-color: #efefef;
+}
+
+.product-cnt{
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-cnt img{
+    height: 400px;
+    width: auto;
+}
+
+.prod-details{
+    line-height: 2rem;
+}
+
+#addToCart{
+    background-color: rgb(96, 152, 96);
+    color: black;
+    padding: 8px 18px;
+    margin-top: 12px;
+    border-radius: 4px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
